@@ -7,15 +7,16 @@ def main():
   print("Madlib")
   #Ask user for words
   noun1 = input("Enter a noun: ")
-  verb1 = input("Enter a verb: ")
-  adjective1 = input("Enter an adjective: ")
+  adverb1 = input("Enter an adverb: ")
   noun2 = input("Enter a noun: ")
-  verb2 = input("Enter a verb: ")
-  adjective2 = input("Enter an adjective: ")
+  noun3 = input("Enter a noun: ")
+  adverb2 = input("Enter an adverb: ")
+  adjective1 = input("Enter an adjective: ")
   
   #Print the story with the user supplied words.
 
-  print("I drive a " + noun1 + "to school " + verb1 + "While my friend drives a" )
+  print("I drive a " + noun1 + " to school " + adverb1 + " With my " + noun2 + " in the back seat." )
+  print("While my friend rides their " + noun3 + " to work " + adverb2 + " while holding a " + adjective1 + " backpack." )
 
 #Call the main function if this is the file being run.
 if __name__ == '__main__':
